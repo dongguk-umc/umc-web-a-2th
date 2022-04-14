@@ -59,7 +59,7 @@ function handleSubmit (e){
     //preventDefault로 새로고침(제출이안됌)을 막아준다.
 
     const inputValue = $input.value; //인풋 값 접근
-    console.log(`이게 인풋값: ${inputValue}`)
+    console.log(`이 곳이 인풋값: ${inputValue}`)
     $input.value = " "; // 공백을 넣어 초기화 시켜줌. 
     console.log($input.value)
 }
