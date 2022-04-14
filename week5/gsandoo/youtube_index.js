@@ -46,7 +46,7 @@ function handleSubmit(e){
     e.preventDefault();
     const newComment= $commentInput.value;
     if (!newComment) {return};
-    const newCommentItem =commentItemTemplate('Kang',newComment);
+    const newCommentItem =commentItemTemplate('Baek',newComment);
     $commentList.insertAdjacentHTML("afterbegin",newCommentItem);
     $commentInput.value = " ";
 }

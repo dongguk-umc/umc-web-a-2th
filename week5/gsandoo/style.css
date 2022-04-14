@@ -13,7 +13,7 @@ body{
 .container{
     width: 200px;
     height: 200px;
-    background-color: bisque;
+    background-color: lightpink;
     padding: 30px;
     border-radius: 20px;
     display: flex;
