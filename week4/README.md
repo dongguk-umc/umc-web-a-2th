@@ -19,6 +19,29 @@
     - [ ]  getElementsByTagName, getElementsByClassName, getElementById 를 사용하여 코드를 아래에 작성해주세요
     
     ```
+
+  // getElementsByTagName
+  const $bodys= document.getElementsByTagName("body");
+  console.log($bodys[0].innerText);
+  
+  // getElementsByClassName
+  const $cityDiv = document.getElementsByClassName("city");
+
+  // getElementsById
+    ```
+    - **주의점 : 클래스와 태그는 하나 이상의 값이 들어있을수 있으므로 elements의 s를 까먹지 말아야한다!**
+    - [ ]  innerText : 태그를 제외하고 지정된 변수 안에 있는 모든 텍스트값을 추출 or 대입 가능
+    - [ ]  spread operator : 나열된 데이터를 처리할때 유용한 연산자, 특히 배열을 컨트롤할때 자주 사용한다.
+    - [ ]  Array.from : 유사배열을 배열로 변환해준다.
+  
+- element
+    - [ ]  classList : 태그에 클래스를 지정 또는 삭제할 수 있게 해주는 api
+    - [ ]  setAttribute : 태그에 속성값을 지정해주는 api
+    - [ ]  appendChild : 해당 요소를 부모의 자식요소 맨 뒤로 보낸다.
+    - [ ]  insertAdjacentHTML : 부모를 기준으로 위치를 지정시켜 자식요소를 위치시킨다.
+
+- insertAdjacentHTMl의 position parmameter : beforebegin, afterbegin, beforeend, afterend
+=======
         const $body = document.getElementsByTagName("body");
         const $container = document.getElementsByClassName("container");
         const $title = document.getElementById("title");
@@ -35,6 +58,7 @@
     - [ ]  setAttribute :
     - [ ]  appendChild : 자식 요소를 만드는 함수
     - [ ]  insertAdjacentHTML : HTML
+
 
 # !주의사항
 
