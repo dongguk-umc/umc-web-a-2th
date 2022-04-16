@@ -9,8 +9,8 @@
 //1.태그를 통해 접근하는 방법
 //getElementsByTagName
 
-const $bodys= document.getElementsByTagName("body");
-console.log($bodys[0].innerText);
+const $bodyy= document.getElementsByTagName("body");
+console.log($bodyy[0].innerText);
 
 // 2. 클래스를 통해 접근하는 방법
 //getElementsByClassName
