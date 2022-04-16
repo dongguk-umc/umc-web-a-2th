@@ -19,6 +19,7 @@
     - [ ]  getElementsByTagName, getElementsByClassName, getElementById 를 사용하여 코드를 아래에 작성해주세요
     
     ```
+
   // getElementsByTagName
   const $bodys= document.getElementsByTagName("body");
   console.log($bodys[0].innerText);
@@ -40,6 +41,24 @@
     - [ ]  insertAdjacentHTML : 부모를 기준으로 위치를 지정시켜 자식요소를 위치시킨다.
 
 - insertAdjacentHTMl의 position parmameter : beforebegin, afterbegin, beforeend, afterend
+=======
+        const $body = document.getElementsByTagName("body");
+        const $container = document.getElementsByClassName("container");
+        const $title = document.getElementById("title");
+        const $cityList = document.getElementById("cityList");
+        const $cities = $cityList.getElementsByTagName("li");
+        const $cityDiv = document.querySelector(".city");
+    ```
+    
+    - [ ]  innerText : tag 안에 텍스트를 넣는 속성
+- [ ]  spread operator : 전개 연산자, 배열 등 나열된 자료형에 각각 접근하여 분배 할당하는 연산자
+- [ ]  Array.from : 유사배열을 배열로 만들어주는 함수
+- element
+    - [ ]  classList : 
+    - [ ]  setAttribute :
+    - [ ]  appendChild : 자식 요소를 만드는 함수
+    - [ ]  insertAdjacentHTML : HTML
+
 
 # !주의사항
 
