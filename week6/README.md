@@ -3,7 +3,10 @@
 # 핵심 키워드 🎯
 
 - **local Storage**
+  : 정보를 저장하는 로컬(컴퓨터) 저장 공간 
+- setItem : local Storage에 정보를 저장할 때 사용하는 메소드 
 - Session Storage
+  : local Storage에 제한적인 기능을 하는 로컬 저장 공간
 
 # 6주차 수업 후기 📢
 
@@ -13,11 +16,12 @@
 
 # 실습 체크리스트✅
 
-- [ ]  JSON:
+- [ ]  JSON: 데이터 오브젝트를 저장, 전달하기 위해 사용되는 데이터 교환 형식
+, 비동기 브라우저, 서버 통신 할 때 자료를 주고 받는데 이 자료를 표현하는 식이 바로 JSON이다.
 - [ ]  localStorage에 getItem으로 문자열, 리스트, JSON을 넣고 다시 getItem으로 돌려받기.
 - [ ]  위의 실습에서 stringify, parse 를 이용해보고 typeof 로 원래의 타입으로 변환되었는지 확인하기.
-- [ ]  Local Storage와 Session Storage의 차이:
-- [ ]  만약 사용자의 이름등 개인정보는 local과 session 둘 중 어디에 담아야할까? 자신의 생각:
+- [ ]  Local Storage와 Session Storage의 차이: Session Storage는 브라우저 세션기간이 만료되거나, 탭이나 창을 닫으면 삭제된다. 
+- [ ]  만약 사용자의 이름등 개인정보는 local과 session 둘 중 어디에 담아야할까? 자신의 생각: local -> 이유 : 로그인 정보 등 그 창에서 임시적으로 필요한 값들을 저장할 때는 session에 저장하고, 계속적으로 운영하고 저장해야 할 값들은 local에 저장하면 좋을 것 같다. 
 
 # !주의사항
 
