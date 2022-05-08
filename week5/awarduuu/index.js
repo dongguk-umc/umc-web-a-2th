@@ -4,7 +4,6 @@ const $input = document.querySelector('input');
 const $btn = document.querySelector('button');
 
 // 이벤트를 사용하는 방법 : 2가지
-
 // 1. 이벤트 핸들러
 // target.이벤트이름 = 콜백함수
 // * 이벤트 핸들러를 사용하면 동일한 대상에 동일한 이벤트가 있으면 뒤의 이벤트로 덮어 씌워짐
@@ -22,8 +21,9 @@ const $btn = document.querySelector('button');
 // $div.addEventListener('click', ()=>alert('clicked'));
 //
 // // 3. removeEventListener
-// // lister자리에 콜백함수의 이름을 써줘야 하므로 익명함수를 add에 사용한 경우 삭제가 불가하다.
+// // listener자리에 콜백함수의 이름을 써줘야 하므로 익ㅋ명함수를 add에 사용한 경우 삭제가 불가하다.
 // $div.removeEventListener('click', handleClick);
+
 
 // 4. event
 $div.addEventListener('click', handleClick);

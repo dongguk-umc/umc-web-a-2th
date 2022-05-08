@@ -17,16 +17,23 @@
 - [ ]  setTimeout
     
     ```
-    setTimeout(function(){console.log("hello")},0);
-    console.log("nice meet you, too")
+    setTimeout(function(){console.log("hello")},0); // 두번째
+    console.log("nice meet you, too") // 첫번째
     
     ```
     
     위의 코드를 실행시킨다면 어떤 코드가 먼저 실행될까? 자신의 생각을 먼저 적고, 실제로 코드를 작동시킨 후 결과에 대해 찾아보세요
-    
-- [ ]  Callback 이란:
-- [ ]  Callback 지옥의 예시를 생각해보고 여기에 적어주세요:
-- [ ]  서버와 `동기적`으로 통신한다면 어떤 문제가 발생할지 의견을 적어주세요:
+    : setTimeout은 동기 작업이 실행된 다음 실행되는 비동기 작업이기 때문이다. 
+- [ ]  Callback 이란: 다른 코드의 인자로서 넘겨주는 실행 가능한 코드
+   ```
+   function asyncFunc(asyncCallback){
+      setTimeout(asuyncCallback,3000);
+   };
+   
+   asyncFunc(()=>console .log('async')); // () => console.log()가 콜백함수
+   ```
+- [ ]  Callback 지옥의 예시를 생각해보고 여기에 적어주세요: 
+- [ ]  서버와 `동기적`으로 통신한다면 어떤 문제가 발생할지 의견을 적어주세요: 불필요한 데이터도 처리해야하므로 매우 비효율적이다.
 
 # !주의사항
 
@@ -36,4 +43,5 @@
 # 논의해보면 좋은 것들 🔥
 
 - 왜 Callback 함수를 안쓰고 promise와 async, await를 사용하는지 토론해보기
+-> 콜백함수가 몇 겹으로 쌓이다 보면, 가독성이 떨어지고 이에 따라 유지 보수가 매우 힘들어지기 때문에 콜백지옥을 막기 위해 이를 사용한다.
 - Promise와 async, await를 어느 기능에서 활용하면 좋을지 토의해보기
