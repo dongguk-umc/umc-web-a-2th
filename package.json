@@ -1,0 +1,19 @@
+{
+  "name": "umc-web-a-2th",
+  "version": "1.0.0",
+  "description": "1. 원격저장소에서 로컬로 pull 해온다. 1. 각자 브랜치('날짜/닉네임')을 파서 작업을 수행한다. 2. week_n의 본인 폴더에서 작업 및 실습을 작업한다. 3. 강의 중 캡처이미지, 실습때 이용할 자료등은 모두 src 폴더에 저장한다. 4. 클론 코딩 실습과제는 homework 폴더에 저장한다. 5. README에 적을 수업후기, 체크리스트 생각해온다. 6. 스터디 전 (목요일 22:00)까지 main branch에 커밋한다. 7. 스터디를 진행하며 수업후기, 체크리스트, 과제 리뷰를 진행한다. 7. 스터디가 끝나면 PR 후 작업했던 branch는 원격, 로컬 모두 삭제한다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/dongguk-umc/umc-web-a-2th.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongguk-umc/umc-web-a-2th/issues"
+  },
+  "homepage": "https://github.com/dongguk-umc/umc-web-a-2th#readme"
+}
